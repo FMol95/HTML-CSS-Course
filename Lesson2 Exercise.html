@@ -10,7 +10,11 @@
             padding: 9px 12px;
             font-weight: bold;
             cursor: pointer;  
-            margin-right: 5px;          
+            margin-right: 5px;
+            transition: 0.5s background-color;
+        }
+        .button-apply:hover {
+            background-color: rgb(0, 77, 154);
         }
         .button-save {
             background-color: white;
@@ -20,6 +24,12 @@
             padding: 9px 17px;
             font-weight: bold;
             cursor: grab;
+            transition: 0.2s border-width, 
+                        0.2s background-color;
+        }
+        .button-save:hover {
+            border-width: 2px;
+            background-color: rgb(255, 240, 252);
         }
     </style>
     <meta charset="UTF-8">
